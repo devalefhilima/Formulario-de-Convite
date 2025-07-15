@@ -1,0 +1,47 @@
+#app {
+    display: grid;
+    grid-template-columns: 31.25% 64.06%;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside {
+    padding: 1.25rem;
+    
+    & .aside-container {
+        max-width: 25rem;
+        position: relative;
+
+        & .bg-image {
+            & img {
+                border-radius: 0.75rem;
+            }
+        }
+
+        & .aside-content {
+            position: absolute;
+            top: 0;
+
+            padding: 2rem;
+
+            & img {
+                width: 2.86rem;
+                height: 3rem;
+            }
+
+            & h1 {
+                margin-block: 1rem 4px;
+            }
+
+            & p {
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+main {
+    overflow: auto;
+    padding: 1.25rem;
+}
