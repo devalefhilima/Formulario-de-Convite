@@ -60,7 +60,7 @@ h1 {
 
 h2 {
     font: var(--text-heading-md);
-    color: var();
+    color: var(--text-heading);
 }
 
 h3 {
@@ -69,9 +69,10 @@ h3 {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 strong {
     color: var(--brand-light);
 }
+
