@@ -11,6 +11,10 @@ fieldset {
     border: none;
 }
 
+fieldset + fieldset {
+    margin-top: 3rem;
+}
+
 legend {
     align-items: center;
     gap: 0.75rem;
