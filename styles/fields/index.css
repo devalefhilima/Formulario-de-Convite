@@ -1,4 +1,6 @@
 @import url(./radio.css);
+@import url(./slider.css);
+@import url(./upload.css);
 
 input {
     height: 3rem;
