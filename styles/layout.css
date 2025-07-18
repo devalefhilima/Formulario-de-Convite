@@ -54,3 +54,17 @@ main {
         padding: 5rem 8.125rem;
     }
 }
+
+
+.contact {
+    & .name-error {
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        align-items: center;
+
+        & span {
+            font: var(--text-body-sm);
+            color: var(--danger);
+        }
+    }
+}
