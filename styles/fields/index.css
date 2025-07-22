@@ -1,6 +1,8 @@
 @import url(./radio.css);
 @import url(./slider.css);
 @import url(./upload.css);
+@import url(./ckeckbox.css);
+@import url(./buttons.css);
 
 input {
     height: 3rem;

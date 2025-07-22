@@ -74,5 +74,6 @@ img {
 
 strong {
     color: var(--brand-light);
+    font-weight: 500;
 }
 
